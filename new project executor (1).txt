@@ -34,7 +34,7 @@ LMG2L["Frame_2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 LMG2L["ImageLabel_3"] = Instance.new("ImageLabel", LMG2L["Frame_2"]);
 LMG2L["ImageLabel_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- LMG2L["ImageLabel_3"]["ImageContent"] = ;
-LMG2L["ImageLabel_3"]["Image"] = [[rbxassetid://110851906458578]];
+LMG2L["ImageLabel_3"]["Image"] = [[rbxassetid://94324572231521]];
 LMG2L["ImageLabel_3"]["Size"] = UDim2.new(0, 34, 0, 32);
 LMG2L["ImageLabel_3"]["BackgroundTransparency"] = 9999;
 LMG2L["ImageLabel_3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -229,7 +229,7 @@ local code = LMG2L["TextBox_b"].Text
 			local success, runtimeErr = pcall(func)
 			if not success then
 				warn("Runtime Error: " .. tostring(runtimeErr))
-			LMG2L["faleconsole_c"]["Text"] = "Error Runtime"
+			LMG2L["faleconsole_c"]["Text"] = "Runtime Error"
 			else
 				LMG2L["faleconsole_c"]["Text"] = "Executed successfully!"
 
