@@ -19,6 +19,7 @@ local LMG2L = {};
 -- Players.???.CoreGui
 LMG2L["ScreenGui_1"] = Instance.new("ScreenGui")
 LMG2L["ScreenGui_1"].Parent = game.CoreGui
+LMG2L["ScreenGui_1"]["DisplayOrder"] = 99999999999999999999999992147483647;
 LMG2L["ScreenGui_1"]["Archivable"] = false;
 LMG2L["ScreenGui_1"]["AutoLocalize"] = false;
 
