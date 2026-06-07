@@ -433,11 +433,11 @@ LMG2L["TextButton8_16"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 LMG2L["TextButton8_16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 LMG2L["TextButton8_16"]["Size"] = UDim2.new(0, 142, 0, 82);
 LMG2L["TextButton8_16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-LMG2L["TextButton8_16"]["Text"] = [[Steve]];
+LMG2L["TextButton8_16"]["Text"] = [[fe 1x4 gui]];
 LMG2L["TextButton8_16"]["Name"] = [[TextButton8]];
 LMG2L["TextButton8_16"]["Position"] = UDim2.new(0, 160, 0, 190);
 LMG2L["TextButton8_16"].MouseButton1Click:Connect(function()
-LMG2L["TextBox_b"]["Text"] = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Test4267/steve/refs/heads/main/rare", true))()]]
+LMG2L["TextBox_b"]["Text"] = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/MrWitzbold/1x1x1x1-GUI/refs/heads/main/main.lua"))()]]
 LMG2L["page1_6"]["Visible"] = true
 LMG2L["page2_f"]["Visible"] = false
 end)
