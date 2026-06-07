@@ -139,6 +139,7 @@ local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 --Properties:
 
 LOGO.Name = "LOGO"
+LOGO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 LOGO.Parent = game.CoreGui
 
 
@@ -201,12 +202,7 @@ local function NLSE_fake_script() -- LOGO.
 	
 end
 coroutine.wrap(NLSE_fake_script)()
-local function JPADOFI_fake_script() -- LOGO.Script 
-	local script = Instance.new('Script', LOGO)
 
-	script.Parent.ResetOnSpawn = false
-end
-coroutine.wrap(JPADOFI_fake_script)()
 end)
 
 
